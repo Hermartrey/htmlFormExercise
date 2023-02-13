@@ -8,6 +8,5 @@ body{
 label{
     display: inline-block;
     background-color: white;
-    width: 200px;
-    height: 200px;
+    margin: 0.5rem 0;
 }
