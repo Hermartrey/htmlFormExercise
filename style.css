@@ -5,3 +5,9 @@ body{
     background-color: lightcoral;
     color: #000;
 }
+label{
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
