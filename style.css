@@ -30,6 +30,33 @@ label{
     margin: 0.5rem 0;
     /* width: 10%;; */
 }
+input,textarea,select{
+    width: 100%;
+    margin: 10px 0 0;
+    min-height: 2em;
+}
+input,textarea, select{
+    background-color:lightblue ;
+    border: 1px solid lightcoral;
+    color: darkgreen;
+    
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0;
+    vertical-align: middle;
+}
 textarea{
     color: green;
+}
+
+
+/*this is the way how to select the attribute element*/
+input[type=submit]{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
 }
