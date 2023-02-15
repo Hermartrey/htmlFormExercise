@@ -13,14 +13,16 @@
     <!--***************form***************-->
     <form action="#">
     <!-- frieldset 1 First name, Last name, Password fields -->
-    <fieldset>
-        <label for="">Enter your First name:inputi<input type="text" required></label>
-        <label for="">Enter Your Last name:input<input type="text" required>></label>
-        <label for="">Enter your Email:input<input type="email" required>></label>
-        <label for="">Enter your Passwordinput<input type="password" required>></label>
+    <fieldset id="fieldset-1">
+        <label for="#"> First name:<input class="info-input" type="text" required></label>
+        <label for="#"> Last name:<input class="info-input" type="text" required></label>
+        <label for="#"> Email:<input class="info-input" type="email" required></label>
+        <label for="#"> Password:<input class="info-input" type="password" minlenght="8" pattern="[a-z0-5{8}]" required></label>
     </fieldset>   
     <fieldset>
-
+        <label for="#"><input type="radio" name="" id=""></label>
+        <label for="#"><input type="radio" name="" id=""></label>
+        <label for="#"><input type="textbox" required></label>
     </fieldset> 
     </form>
 </body>
