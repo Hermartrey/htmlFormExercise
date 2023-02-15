@@ -12,11 +12,9 @@ body{
 /* .info-input{
     width: 20%;
 } */
-#fieldset-1{
-    height: 20px;
-}
+
 label{
-    height: 20px;
+    /* height: 20px; */
     display: inline-block;
     background-color: white;
     margin: 0.5rem 0;
